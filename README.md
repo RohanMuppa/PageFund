@@ -42,6 +42,14 @@
 
 ---
 
+## Algorithms
+- **Valuation Algorithm**: Combines average rating and log-scaled rating count to generate a weighted score, favoring books with both quality and engagement.
+- **Balance Validation Algorithm**: Ensures that a user's virtual currency is sufficient to perform a transaction before committing any Firestore write.
+- **Transactional Logic**: Enforces atomic updates for both buying and selling books, guaranteeing consistency in concurrent sessions.
+- **Snapshot-Based UI Refresh**: Uses Firestore listeners to reflect real-time changes in valuation and portfolio contents on the frontend.
+- **Background Valuation Update**: A scheduled algorithm fetches external data and updates book prices without user prompts or manual refreshes.
+
+---
 ## Feature Set
 - 🔐 **Secure Auth Layer**: Enforced multi-step validation on email/password during signup; session token invalidation on logout or app close
 - 📚 **Dynamic Book Marketplace**: Google Books API integration using real-time query responses mapped to Book objects via reflection-based deserialization
@@ -118,7 +126,7 @@ PageFund introduces a hybrid valuation algorithm that reflects both mass interes
 
 ## Contact
 **Developer**: Rohan Muppa  
-**Program**: M.S. Computer Engineering, Purdue University  
+**Program**: B.S. Computer Engineering + Mathemetics, Purdue University  
 **LinkedIn**: [linkedin.com/in/rohanmuppa](https://linkedin.com/in/rohanmuppa)
 
 > "PageFund is the future of cultural prediction gamification. Absolutely brilliant." – *Timothy Edward Gray, Client*
