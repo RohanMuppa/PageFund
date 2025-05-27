@@ -59,22 +59,6 @@
 - 🧠 **User Feedback Loop**: Contextual snackbars, toasts, and alert dialogs enhance transaction clarity and error recovery
 - 🧾 **Persistent Session State**: Authentication context maintained via FirebaseAuth.getCurrentUser() and auto-cleared on session end
 
----
-
-## Investment Valuation Methodology
-PageFund introduces a hybrid valuation algorithm that reflects both mass interest and perceived quality:
-
-- **Valuation Function**
-  
-  `V = α * avgRating + β * log10(ratingCount + 1)`
-
-  Where:
-  - α and β are empirically chosen constants that weight quality and popularity respectively
-  - `ratingCount` is normalized using a logarithmic scale to prevent inflation from outliers
-  - All values are rounded to two decimal places for readability and consistency
-
----
-
 ## Core Technical Strategies
 - **Encapsulation**: Modular `Book` class with accessors/mutators to enforce encapsulation and facilitate polymorphic data handling
 - **Error Management**: Centralized error catching with UI-level exception messaging and input rejection at both client and database level
