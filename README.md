@@ -129,4 +129,4 @@ PageFund introduces a hybrid valuation algorithm that reflects both mass interes
 **Program**: B.S. Computer Engineering + Mathemetics, Purdue University  
 **LinkedIn**: [linkedin.com/in/rohanmuppa](https://linkedin.com/in/rohanmuppa)
 
-> "PageFund is the future of cultural prediction gamification. Absolutely brilliant." – *Timothy Edward Gray, Client*
+> "PageFund is the future. Absolutely brilliant." – *Timothy Edward Gray, Client*
