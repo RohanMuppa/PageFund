@@ -64,14 +64,14 @@
 ## Investment Valuation Methodology
 PageFund introduces a hybrid valuation algorithm that reflects both mass interest and perceived quality:
 
-- **Valuation Function:**
-  $$
-  V = \alpha \cdot \text{avgRating} + \beta \cdot \log_{10}(\text{ratingCount} + 1)
-  $$
+- **Valuation Function**
+  
+  `V = α * avgRating + β * log10(ratingCount + 1)`
+
   Where:
-  - \(\alpha\) and \(\beta\) are empirically chosen constants
-  - Rating count is normalized to prevent outlier inflation
-  - Values are rounded to 2 decimal places for display consistency
+  - α and β are empirically chosen constants that weight quality and popularity respectively
+  - `ratingCount` is normalized using a logarithmic scale to prevent inflation from outliers
+  - All values are rounded to two decimal places for readability and consistency
 
 ---
 
