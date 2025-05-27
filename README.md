@@ -1,7 +1,7 @@
 # PageFund: Predictive Investment Simulator for Books
 
 ## Overview
-**PageFund** is a fully-integrated Android application that simulates a dynamic, data-driven market where users invest virtual currency into books. Leveraging real-time metadata from the Google Books API and Firebase's serverless infrastructure, the platform transforms cultural prediction into an interactive financial model. It is designed to reward users for accurately forecasting future literary popularity using quantitative metrics such as average rating, rating count, and temporal sentiment proxies.
+**PageFund** is a native Android application that simulates a dynamic, data-driven market where users invest virtual currency into books. Leveraging real-time metadata from the Google Books API and Firebase's serverless infrastructure, we transform cultural prediction into an interactive financial model. It is designed to reward users for accurately forecasting future literary popularity using quantitative metrics such as average rating, rating count, and temporal sentiment proxies.
 
 ---
 
